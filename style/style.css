@@ -46,12 +46,19 @@ nav a {
     font-weight: 700;
     padding: 15px 35px;
 }
+.btn-primary:hover{
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 0 5px red,0 0 10px red,0 0 20px red,0 0 20px red,0 0 40px red;
+    color: #FFF;
+}
+
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 /* banner item  */
@@ -165,14 +172,15 @@ nav a {
 
 }
 
-.box-item-x {
+.box-item-hide {
     padding: 30px 33px;
     text-align: left;
-    background: #FFF;
     width: 267px;
     height: 377px;
+    margin-left: 24px;
 
 }
+
 
 /* main section 3 */
 
@@ -181,30 +189,97 @@ nav a {
     font-size: 30px;
     font-weight: 700;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     padding: 113px 230px;
     gap: 71px;
 }
-.resume-item-description{
+
+.resume-item-description {
     color: #757575;
     font-size: 16px;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     color: #757575;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.resume-item-title{
+
+.resume-item-title {
     columns: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-top: 30px 0 0 10px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px 0;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin: 50px 0 113px 0;
+}
+
+/* footer part */
+
+.footer-section {
+    height: 780px;
+    background: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.footer-pera {
+    color: #474747;
+    font-size: 16px;
+    padding: 20px 0 30px 0;
+
+}
+
+.footer-div2 {
+    margin: 130px 0 0 230px;
+
+}
+
+.icon-class {
+    margin-right: 24px;
+}
+
+.footer-div3 {
+    margin: 130px 230px 0 117px;
+}
+
+.input-box {
+    width: 461px;
+    height: 45px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 24px;
+    padding: 10px 0 10px 30px;
+    font-size: 16px;
+}
+
+.input-box-text {
+    width: 461px;
+    height: 135px;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 24px 0;
+    padding: 20px 0 0px 30px;
+    font-size: 16px;
+}
+.btn-primary{
+    margin-right: 20px;
 }
