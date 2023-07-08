@@ -107,3 +107,20 @@ nav a {
     text-align: center;
     font-size: 18px;
 }
+.main{
+    max-width: 1140px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin-left: 50px;
+}
+.info-title{
+    columns:#757575;
+}
+.info-description{
+    color: #474747;
+}
