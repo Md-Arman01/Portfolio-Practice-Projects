@@ -269,6 +269,7 @@ nav a {
     margin-top: 24px;
     padding: 10px 0 10px 30px;
     font-size: 16px;
+    border: 0px;
 }
 
 .input-box-text {
@@ -279,6 +280,7 @@ nav a {
     margin: 24px 0;
     padding: 20px 0 0px 30px;
     font-size: 16px;
+    border: 0px;
 }
 .btn-primary{
     margin-right: 20px;
