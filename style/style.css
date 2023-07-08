@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* nav item  */
 nav {
     display: flex;
@@ -89,7 +90,7 @@ nav a {
     max-width: 500px;
 }
 
-/* section desing */
+/* main section 1*/
 
 .about {
     margin: 130px 230px;
@@ -97,30 +98,76 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     font-size: 35px;
     text-align: center;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 }
-.main{
+
+.main {
     max-width: 1140px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
     margin-left: 50px;
 }
-.info-title{
-    columns:#757575;
+
+.info-title {
+    columns: #757575;
 }
-.info-description{
+
+.info-description {
     color: #474747;
+}
+
+/* main section 2 */
+#what {
+    padding: 30px 346px 50px 345px;
+}
+
+.icon-box {
+    display: flex;
+    padding: 0px 230px 130px;
+}
+
+.box-item {
+    padding: 30px 33px;
+    text-align: left;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 267px;
+    height: 377px;
+    margin-left: 24px;
+}
+
+.leka {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 201px;
+    padding-top: 50px;
+    
+}
+.box-item-x{
+    padding: 30px 33px;
+    text-align: left;
+    background: #FFF;
+    width: 267px;
+    height: 377px;
+    margin-left: 24px;
 }
