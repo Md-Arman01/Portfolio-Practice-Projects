@@ -67,6 +67,8 @@ nav a {
     width: 500px;
 }
 
+
+
 .banner-greeting {
     font-size: 45px;
     color: #474747;
@@ -160,14 +162,49 @@ nav a {
     font-weight: 400;
     line-height: 28px;
     width: 201px;
-    padding-top: 50px;
-    
+
 }
-.box-item-x{
+
+.box-item-x {
     padding: 30px 33px;
     text-align: left;
     background: #FFF;
     width: 267px;
     height: 377px;
-    margin-left: 24px;
+
+}
+
+/* main section 3 */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    padding: 113px 230px;
+    gap: 71px;
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume-item-title{
+    columns: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px 0 0 10px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px 0 113px 0;
 }
